@@ -11,10 +11,6 @@ public:
 	{
 		return num;
 	}
-	friend std::ostream& operator<<(std::ostream& out, c_dice& dice)
-	{
-		out << dice.num;
-		return out;
-	}
+	friend std::ostream& operator<<(std::ostream& out, c_dice& dice);
 };
 
